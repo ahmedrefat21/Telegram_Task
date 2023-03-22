@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="seed">#1D3557</color>
+    <color name="light_primary">#245FA6</color>
+    <color name="light_onprimary">#FFFFFF</color>
+    <color name="light_secondary">#1D2733</color>
+    <color name="light_tertiary">#2AABEE</color>
+    <color name="light_ontertiary">#FFFFFF</color>
+    <color name="light_background">#FDFBFF</color>
+    <color name="light_onbackground">#161D27</color>
+    <color name="light_surface">#FDFBFF</color>
+    <color name="light_outline">#74777F</color>
+    <color name="dark_secondary">#1D2733</color>
+</resources>

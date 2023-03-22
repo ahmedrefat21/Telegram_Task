@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Telegram_Task</string>
+    <string name="profile_name">Ahmed Refat</string>
+    <string name="profile_status">online</string>
+    <string name="adding_profile_photo">Adding profile photo</string>
+    <string name="account">Account</string>
+    <string name="phone_number">+20 12 8015 1063</string>
+    <string name="phone_number_desc">Tap to change phone number</string>
+    <string name="username">\@ahmedrefat21</string>
+    <string name="username_desc">Username</string>
+    <string name="bio_desc">Bio</string>
+    <string name="bio">No pain, No gain</string>
+</resources>

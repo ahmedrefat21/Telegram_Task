@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Telegram_Task" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorSecondary">@color/dark_secondary</item>
+        <!-- Status bar color. -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/light_onbackground</item>
+    </style>
+
+    <style name="floatingActionButtonStyle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">52dp</item>
+    </style>
+
+    <style name="dividerStyle" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:layout_marginBottom">@dimen/margin_12</item>
+        <item name="android:layout_marginTop">@dimen/margin_12</item>
+        <item name="dividerColor">@color/light_onbackground</item>
+    </style>
+
+    <style name="IconsStyle" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/margin_16</item>
+        <item name="android:layout_marginTop">@dimen/margin_16</item>
+        <item name="android:tint">@color/light_ontertiary</item>
+    </style>
+
+    <style name="LinearLayoutStyle" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/dark_secondary</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/margin_16</item>
+    </style>
+
+    <style name="TextTitleStyle" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/light_tertiary</item>
+        <item name="android:textSize">@dimen/font_16</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextSubtitleStyle" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/light_onprimary</item>
+        <item name="android:textSize">@dimen/font_16</item>
+    </style>
+
+    <style name="TextHintStyle" parent="TextSubtitleStyle">
+        <item name="android:textColor">@color/light_outline</item>
+        <item name="android:textSize">@dimen/font_14</item>
+    </style>
+
+</resources>
